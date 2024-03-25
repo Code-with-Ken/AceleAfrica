@@ -1,6 +1,7 @@
 import { Inter, Titillium_Web } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
+import Footer from "@/components/footer";
 
 
 const titillium = Titillium_Web({subsets:["latin"],weight:["200","300","400","600","700","900"]})
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <main className="bg-[#F1F1F1]">
           <Nav className="z-10"/>
           {children}</main>
+          <Footer />
       </body>
     </html>
   );
