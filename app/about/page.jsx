@@ -16,13 +16,14 @@ const About = () => {
         subtitle="Renewable Energy for a Sustainable World."
         alt="about us"
       />
-      <div className="pt-16 pb-24 lg:pb-16 lg:pt-32">
-          <WhoWeAre />
-        </div>
-      <div className="pb-12">
-          <OurPartners />
-        </div>
       <OurValue />
+      <div className="pt-16 pb-24 lg:pb-16 lg:pt-32">
+        <WhoWeAre />
+      </div>
+      <div className="pb-12">
+        <OurPartners />
+      </div>
+
       <div className="grid-cols-2 mt-24 lg:grid ">
         <div className="flex px-10 ml-3 bg-white rounded-lg item">
           <div className="mt-16 lg:order-last">
