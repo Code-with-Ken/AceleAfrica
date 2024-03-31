@@ -56,7 +56,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="py-16 text-center">
+      <div className="text-center">
         <span className="text-[#6EB846] text-xs font-light">MEET OUR TEAM</span>
         <p className="py-4 text-xl font-bold">Teamwork makes the dream work.</p>
         <p className="px-4 text-sm lg:mx-40">

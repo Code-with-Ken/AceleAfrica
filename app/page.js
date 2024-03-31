@@ -8,7 +8,7 @@ import WhatWeOffer from "@/components/what_we_offer";
 import Benefits from "@/components/benefits";
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <div>
         <div className="overflow-hidden lg:h-[600px] h-[450px] flex flex-col bg-red-200">
           <Image
