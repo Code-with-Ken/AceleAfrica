@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div className="overflow-hidden lg:h-[600px] h-[450px] flex flex-col bg-red-200">
+        <div className="overflow-hidden lg:h-[600px] h-[450px] flex flex-col bg-red-200 relative">
           <Image
             src="/assets/images/solar-energy-panels.jpg"
             width={1200}
             height={0}
-            className="h-full"
+            className="object-cover object-center w-full h-full"
           />
           <div className="absolute flex flex-col items-center justify-center w-full h-full text-center text-white lg:px-60">
             <p className="text-xs text-[#F6D707]">WELCOME TO ACELEAFRICA</p>
