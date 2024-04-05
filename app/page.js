@@ -12,7 +12,7 @@ export default function Home() {
       <div className="relative h-full overflow-hidden bg-blue-400">
         <Image
           src="/assets/images/preview.jpeg"
-          width={400}
+          width={1200}
           height={0}
           className="object-cover object-center w-full h-full"
         />
