@@ -14,9 +14,9 @@ export default function Home() {
           src="/assets/images/preview.jpeg"
           width={1200}
           height={0}
-          className="object-cover object-center w-full h-full"
+          className="object-cover object-center h-full lg:w-full"
         />
-        <p className="text-2xl text-[#F6D707] absolute top-28 lg:top-56 text-center bg-fuchsia-600 w-full">
+        <p className="text-2xl text-[#F6D707] absolute top-72 lg:top-96 text-center bg-fuchsia-600 w-full font-bold">
           THIS WEBSITE IS CURRENTLY BEING DEVELOPED
         </p>
       </div>
