@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${titillium.className} overflow-x-hidden`}>
         <Nav className="z-20" />
         <main className="bg-[#F1F1F1]">{children}</main>
-        <Footer />
+        {/* <Footer className="hidden"/> */}
       </body>
     </html>
   );
