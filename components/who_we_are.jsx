@@ -3,7 +3,7 @@ import Image from "next/image";
 import Button from "./button";
 const WhoWeAre = () => {
   return (
-    <div>
+    <div className="hidden">
       <section className="grid mx-6 lg:grid-cols-2">
         <div className="w-full px-4 rounded-lg lg:pr-16">
           <h2 className="text-[#6EB846]">WHO WE ARE</h2>

@@ -9,15 +9,16 @@ import Benefits from "@/components/benefits";
 export default function Home() {
   return (
     <main>
-      <div>
-        <div className="overflow-hidden lg:h-[600px] h-[450px] flex flex-col bg-red-200 relative">
+      <div className="bg-blue-400 h-svh">
+        <div className="relative flex flex-col h-full overflow-hidden bg-blue-400">
           <Image
-            src="/assets/images/solar-energy-panels.jpg"
+            src="/assets/images/preview.jpeg"
             width={1200}
             height={0}
             className="object-cover object-center w-full h-full"
           />
-          <div className="absolute flex flex-col items-center justify-center w-full h-full text-center text-white lg:px-60">
+          <p className="text-2xl text-[#F6D707] absolute top-56 text-center bg-fuchsia-600 w-full">THIS WEBSITE IS CURRENTLY BEING DEVELOPED</p>
+          <div className="absolute flex flex-col items-center justify-center hidden w-full h-full text-center text-white lg:px-60">
             <p className="text-xs text-[#F6D707]">WELCOME TO ACELEAFRICA</p>
             <p className="my-6 text-2xl font-bold lg:text-4xl">
               The better source of energy for the better tomorrow

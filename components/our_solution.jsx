@@ -3,7 +3,7 @@ import Image from "next/image";
 import Button from "./button";
 const OurSolution = () => {
   return (
-    <div className="bg-[#1d4ed8] px-1  py-6 lg:px-8">
+    <div className="bg-[#1d4ed8] px-1  py-6 lg:px-8 hidden" >
       <div className="pt-12 text-center">
         <p className="text-[#6EB846]">our solution</p>
         <h1 className="text-lg font-bold text-white lg:text-3xl">

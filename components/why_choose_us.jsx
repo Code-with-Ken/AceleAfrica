@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const WhyChooseUs = () => {
   return (
-    <div className="px-2">
+    <div className="hidden px-2 ">
       <div className="py-4">
         <p className="text-[#6EB846] font-light text-xs">WHY CHOOSE US</p>
         <h1 className="text-lg font-bold lg:text-3xl">

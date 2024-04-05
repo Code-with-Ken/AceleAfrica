@@ -5,7 +5,7 @@ import { useState } from "react";
 const nav = () => {
   const [toggleDropDown, settoggleDropDown] = useState(false);
   return (
-    <section className="absolute inset-0 z-30 w-full">
+    <section className="absolute inset-0 z-30 hidden w-full">
       <div className="flex items-center justify-between py-4 lg:hidden">
         <div className="flex flex-row items-center gap-12 mx-8">
           <div className="flex">

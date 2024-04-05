@@ -8,7 +8,7 @@ import ProtectEnvironment from "@/components/protect_environment";
 import OurPartners from "@/components/our_partners";
 const About = () => {
   return (
-    <div>
+    <div className="hidden">
       {/* banner */}
       <Header
         src="/assets/images/bat-2.jpg"

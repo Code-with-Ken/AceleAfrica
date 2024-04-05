@@ -2,7 +2,7 @@ import React from "react";
 import Services from "./services";
 const WhatWeOffer = () => {
   return (
-    <div className="pt-20">
+    <div className="hidden pt-20">
       <div className="flex flex-col px-8 text-center lg:px-72 lg:mb-8">
         <p className="text-[#6EB846] text-xs font-light uppercase">
           what we offer

@@ -2,7 +2,7 @@ import React from "react";
 
 const OurPartners = () => {
   return (
-    <div>
+    <div className="hidden">
       <h1 className="font-bold text-center text-[#6EB846]">Our partners</h1>
       <div className="grid grid-cols-3">
         <p className="font-bold text-center">KSC</p>

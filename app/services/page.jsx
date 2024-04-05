@@ -9,7 +9,7 @@ import WhatWeOffer from "@/components/what_we_offer";
 import Benefits from "@/components/benefits";
 const services = () => {
   return (
-    <div>
+    <div className="hidden">
       <Header
         src="/assets/images/bat-2.jpg"
         title="Services"

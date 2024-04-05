@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="lg:grid grid-cols-3 px-8 bg-[#1A3240] text-white py-12">
+    <div className="lg:grid grid-cols-3 px-8 bg-[#1A3240] text-white py-12 hidden">
       <div>
         <h1 className="text-sm font-bold uppercase text-[#6EB846]">services</h1>
 
